@@ -1,3 +1,52 @@
-.container {
-    background-color: pink;
+h1#intro {
+    padding-top: 1em;
+    padding-left: 1em;
+}
+.navbar-light {
+    height: 50px;
+    padding: 0px;
+    margin-top: 0.5em;
+}
+.nav-item {
+    text-align: center; /* when the toggle bar is visible, center the menu options */
+    border-radius: 10px;
+}
+
+.nav-item:hover { /* underline on hover mouse hover */
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link:active { /* make underline thicker on mouse click */
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.navbar-light img {
+    padding: 0px;
+}
+
+.active-menu-page {
+    font-weight: bold;
+}
+
+hr {
+    margin: 0px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../images/cherry-blossom-icon.png");
+}
+
+.navbar-toggler {
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+}
+.navbar-toggler-icon {
+    width: 2em;
+    height: 2em;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.25);
 }
