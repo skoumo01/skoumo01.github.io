@@ -2,24 +2,31 @@ h1#intro {
     padding-top: 1em;
     padding-left: 1em;
 }
+h1#intro a{
+    color: black;
+    text-decoration: none;
+}
 .navbar-light {
     height: 50px;
     padding: 0px;
     margin-top: 0.5em;
 }
 .nav-item {
-    text-align: center; /* when the toggle bar is visible, center the menu options */
-    border-radius: 10px;
+    text-align: left;
+    background-color: white;
+    background-position: bottom left; /*Adjust the background-position to move the line*/
+    background-size: 10% 2px; /*Adjust the background size to control length and height*/
+    background-repeat: no-repeat;
+    padding-bottom: 0; /* this can also control the position */
+    background-image: linear-gradient(rgba(227,228,228,0), rgba(227,228,228,0));
 }
 
 .nav-item:hover { /* underline on hover mouse hover */
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
+    background-image: linear-gradient(rgba(227,228,228,1), rgba(227,228,228,1));
 }
 
 .navbar-light .navbar-nav .nav-link:active { /* make underline thicker on mouse click */
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
+    font-weight: bold;
 }
 
 .navbar-light img {
@@ -48,5 +55,6 @@ hr {
     height: 2em;
 }
 .navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.25);
+    color: rgba(227,228,228,255);
+
 }
