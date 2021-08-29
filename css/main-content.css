@@ -17,6 +17,10 @@ a:active{
     padding: 5%;
 }
 
+#index section#about-me img{
+    padding: 10%;
+}
+
 
 /******** CV PAGE *********/
 #cv section#section1{
