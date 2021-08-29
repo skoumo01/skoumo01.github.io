@@ -13,14 +13,14 @@ a:active{
 
 
 /*********** ABOUT ME PAGE **********/
-#index section#about-me {
-    padding: 5%;
-}
-
 #index section#about-me img{
     padding: 10%;
+    padding-top: 20%
 }
 
+#index section#about-me #about-text{
+    padding: 5%;
+}
 
 /******** CV PAGE *********/
 #cv section#section1{
