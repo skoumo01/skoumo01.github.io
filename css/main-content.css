@@ -1,9 +1,28 @@
+p a{
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover{
+    color: mediumseagreen;
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+
 /*********** ABOUT ME PAGE **********/
 #index section#about-me {
     padding: 5%;
 }
 
+
 /******** CV PAGE *********/
+#cv section#section1{
+    text-align: center;
+    padding-top: 10%;
+}
 
 /******** PROJECTS PAGE  ********/
 #projects section#section1{
@@ -21,18 +40,6 @@
     padding-top: 2%;
 }
 
-#contact section#email p a{
-    text-decoration: none;
-    color: grey;
-}
-
-#contact section#email p a:hover{
-    color: blue;
-}
-
-#contact section#email p a:active{
-    text-decoration: underline;
-}
 
 #contact section#email img{
     width: 157px;
