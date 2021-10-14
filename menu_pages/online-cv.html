@@ -12,363 +12,360 @@
 
     <!-- Adding Styles -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="../css/header-and-top-menu.css" rel="stylesheet">
-    <link href="../css/main-content.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
 
     <!-- Adding Functionality -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 
 </head>
-<body id="cv" class="container-fluid">
-
-    <!-- Header -->
-    <header>
-        <h1 id="intro"><a href="../index.html">My name is Stavroulla...</a></h1>
-    </header>
-
-    <hr/>
+<body id="cv" class="container">
 
     <!-- Top Navigation Menu -->
-    <nav class="navbar navbar-light navbar-expand-md bg-faded d-flex align-items-baseline">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="container py-4 navbar navbar-expand-lg navbar-light border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <h1 id="intro">My name is Stavroulla...</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbarNavDropdown">
-            <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">About Me</a>
-                </li>
-                <li class="nav-item active-menu-page active">
-                    <a class="nav-link" href="#">CV</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./projects.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-            </ul>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-1" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ms-auto flex-nowrap" style="align-items: flex-end;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">About Me</a>
+                    </li>
+                    <li class="nav-item active-menu-page active">
+                        <a class="nav-link" href="#">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-
     <!-- Main body -->
-    <section id="section1" class="row">
-        <div class="col-12">
-            <ul class="card">
-                <a class="dropdown-toggle" data-bs-toggle="collapse" href=".work-experience">
-                    Work Experience
-                </a>
-                <li class="card collapse work-experience">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Software Developer</span> at Konos Ltd <br>
-                            <span class="duration">01/06/2016 - 31/07/2016</span>
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse work-experience">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Secondary School Level Teaching Assistant</span> at Ιδιωτικό Φροντιστήριο Δρ. Κέστορας ΛΤΔ <br>
-                            <span class="duration">01/09/2017 - 11/10/2017</span>
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse work-experience">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Researcher</span> at Xi Computer Architecture Research Group of the University of
-                            Cyprus<br>
-                            <span class="duration">01/06/2018 - 31/07/2018</span>
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse work-experience">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Researcher</span> at NetRL and FCSLab of University of Cyprus<br>
-                            <span class="duration">03/06/2019 - 26/07/2019</span>
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse work-experience">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Database Developer</span> at Fooderloo LTD<br>
-                            <span class="duration">01/05/2020 - 24/06/2020</span>
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse work-experience">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Software Developer</span> at KIOS Research and Innovation Center of Excellence<br>
-                            <span class="duration">09/06/2020 - 31/07/2020</span>
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse work-experience">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Special Scientist</span> at SEIT Lab of the University of Cyprus<br>
-                            <span class="duration">01/06/2021 - PRESENT</span>
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
+    <div class="content-wrapper">
+        <section id="section1" class="row">
+            <div class="col-12">
+                <ul class="card">
+                    <h5 class=" card-header text-center">
+                        Work Experience
+                    </h5>
+                    <li class="card work-experience">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Software Developer</span> at Konos Ltd <br>
+                                <span class="duration">01/06/2016 - 31/07/2016</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card work-experience">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Secondary School Level Teaching Assistant</span> at Ιδιωτικό Φροντιστήριο Δρ. Κέστορας ΛΤΔ <br>
+                                <span class="duration">01/09/2017 - 11/10/2017</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card work-experience">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Researcher</span> at Xi Computer Architecture Research Group of the University of
+                                Cyprus<br>
+                                <span class="duration">01/06/2018 - 31/07/2018</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card work-experience">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Researcher</span> at NetRL and FCSLab of University of Cyprus<br>
+                                <span class="duration">03/06/2019 - 26/07/2019</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card work-experience">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Database Developer</span> at Fooderloo LTD<br>
+                                <span class="duration">01/05/2020 - 24/06/2020</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card work-experience">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Software Developer</span> at KIOS Research and Innovation Center of Excellence<br>
+                                <span class="duration">09/06/2020 - 31/07/2020</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card work-experience">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Special Scientist</span> at SEIT Lab of the University of Cyprus<br>
+                                <span class="duration">01/06/2021 - PRESENT</span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="section2" class="row">
-        <div class="col-12">
-            <ul class="card">
-                <a class="dropdown-toggle" data-bs-toggle="collapse" href=".edu-and-train">
-                    Education and Training
-                </a>
-                <li class="card collapse edu-and-train">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Highschool diploma</span> from Λύκειο Κύκκου Α'<br>
-                            <span class="duration">15/09/2014 – 23/06/2017</span>
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse edu-and-train">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">BSc degree in Computer Science</span> from University of Cyprus <br>
-                            <span class="duration">01/09/2017 – 03/06/2021</span>
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse edu-and-train">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">IGCSE in English Language</span> from Cambridge International School
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse edu-and-train">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">ECDL Standard certificate</span> from Cyprus Computer Society (CCS)
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse edu-and-train">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">O' Level degree in Computer Science</span> from Cambridge International Examinations
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse edu-and-train">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">A' Level degree in Computer Science</span> from Cambridge International Examinations
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse edu-and-train">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Machine Learning course certificate</span> from Stanford University (Online)
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
+        <section id="section2" class="row">
+            <div class="col-12">
+                <ul class="card">
+                    <h5 class="card-header text-center">
+                        Education and Training
+                    </h5>
+                    <li class="card edu-and-train">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Highschool diploma</span> from Λύκειο Κύκκου Α'<br>
+                                <span class="duration">15/09/2014 – 23/06/2017</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card edu-and-train">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">BSc degree in Computer Science</span> from University of Cyprus <br>
+                                <span class="duration">01/09/2017 – 03/06/2021</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card edu-and-train">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">IGCSE in English Language</span> from Cambridge International School
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card edu-and-train">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">ECDL Standard certificate</span> from Cyprus Computer Society (CCS)
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card edu-and-train">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">O' Level degree in Computer Science</span> from Cambridge International Examinations
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card edu-and-train">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">A' Level degree in Computer Science</span> from Cambridge International Examinations
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card edu-and-train">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Machine Learning course certificate</span> from Stanford University (Online)
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="section3" class="row">
-        <div class="col-12">
-            <ul class="card">
-                <a class="dropdown-toggle" data-bs-toggle="collapse" href=".languages" aria-expanded="false">
-                    Languages
-                </a>
-                <li class="card collapse languages">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Greek</span> (mother tongue)
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse languages">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">English</span>
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
+        <section id="section3" class="row">
+            <div class="col-12">
+                <ul class="card">
+                    <h5 class="card-header text-center">
+                        Languages
+                    </h5>
+                    <li class="card languages">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Greek</span> (mother tongue)
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card languages">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">English</span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="section4" class="row">
-        <div class="col-12">
-            <ul class="card">
-                <a class="dropdown-toggle" data-bs-toggle="collapse" href=".skills" aria-expanded="false">
-                    Skills
-                </a>
-                <li class="card collapse skills">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Software Development</span><br>
+        <section id="section4" class="row">
+            <div class="col-12">
+                <ul class="card">
+                    <h5 class="card-header text-center">
+                        Skills
+                    </h5>
+                    <li class="card skills">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Software Development</span><br>
+                                <ul>
+                                    <li>SQL</li>
+                                    <li>Basic Command Line Usage (Unix/Linux)</li>
+                                    <li>C Programming Language</li>
+                                    <li>Python</li>
+                                    <li>WordPress</li>
+                                    <li>Web Development: JavaScript, CSS/Bootstrap , HTML 5</li>
+                                    <li>Java Programming language</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="section5" class="row">
+            <div  class="col-12">
+                <ul class="card">
+                    <h5 class="card-header text-center">
+                        Publications
+                    </h5>
+                    <li class="card publications">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Towards a Blockchain Database for Massive IoT Workloads</span>
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9438780" class="reference" target=”_blank”>[Read]</a><br>
+                                2021
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card publications">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">A Web 3.0 Blockchain Datastore for Massive IoT Workload</span>
+                                <a href="https://www.cs.ucy.ac.cy/~dzeina/papers/mdm21-triastore.pdf" class="reference" target=”_blank”>[Read]</a><br>
+                                2021
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card publications">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">eSticky – An Advanced Remote Reminder System for People with Early Dementia</span><br>
+                                2021
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="section6" class="row">
+            <div  class="col-12">
+                <ul class="card">
+                    <h5 class="card-header text-center">
+                        Memberships
+                    </h5>
+                    <li class="card memberships">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Data Management Systems Laboratory (DMSL)</span> of University of Cyprus<br>
+                                <span class="duration">07/09/2020 – 01/06/2021</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card memberships">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Software Engineering and Internet Technologies (SEIT) Laboratory</span> of University of Cyprus<br>
+                                <span class="duration">01/06/2021 - PRESENT</span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="section7" class="row">
+            <div class="col-12">
+                <ul class="card">
+                    <h5 class="card-header text-center">
+                        Conferences and Seminars
+                    </h5>
+                    <li class="card confer-and-seminars">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Green Energy</span><br>
                             <ul>
-                                <li>SQL</li>
-                                <li>Basic Command Line Usage (Unix/Linux)</li>
-                                <li>C Programming Language</li>
-                                <li>Python</li>
-                                <li>WordPress</li>
-                                <li>Web Development: JavaScript, CSS/Bootstrap , HTML 5</li>
-                                <li>Java Programming language</li>
+                                <li>ENHANCE Project Results Workshop – Enhanced Rooftop Photovoltaic (PV) Integration
+                                    Through Kinetic and Wide Area Monitoring, 2020</li>
                             </ul>
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card confer-and-seminars">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Blockchain</span><br>
+                            <ul>
+                                <li>Blockchain research talks from the 46th International Conference on Very Large
+                                    Data Bases (VLDB2020), 2020</li>
+                                <li>Second International Workshop on Blockchain and Data
+                                    Management (BlockDM 2020) in conjunction with ICDE, 2020</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </li>
+                    <!-- <li class="card confer-and-seminars">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">User Experience</span><br>
+                            <ul>
+                                <li></li>
+                            </ul>
+                            </p>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
 
-    <section id="section5" class="row">
-        <div  class="col-12">
-            <ul class="card">
-                <a class="dropdown-toggle" data-bs-toggle="collapse" href=".publications" aria-expanded="false">
-                    Publications
-                </a>
-                <li class="card collapse publications">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Towards a Blockchain Database for Massive IoT Workloads</span>
-                            <a href="https://ieeexplore.ieee.org/abstract/document/9438780" class="reference" target=”_blank”>[Read]</a><br>
-                            2021
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse publications">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">A Web 3.0 Blockchain Datastore for Massive IoT Workload</span>
-                            <a href="https://www.cs.ucy.ac.cy/~dzeina/papers/mdm21-triastore.pdf" class="reference" target=”_blank”>[Read]</a><br>
-                            2021
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse publications">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">eSticky – An Advanced Remote Reminder System for People with Early Dementia</span><br>
-                            2021
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="section6" class="row">
-        <div  class="col-12">
-            <ul class="card">
-                <a class="dropdown-toggle" data-bs-toggle="collapse" href=".memberships" aria-expanded="false">
-                    Memberships
-                </a>
-                <li class="card collapse memberships">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Data Management Systems Laboratory (DMSL)</span> of University of Cyprus<br>
-                            <span class="duration">07/09/2020 – 01/06/2021</span>
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse memberships">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Software Engineering and Internet Technologies (SEIT) Laboratory</span> of University of Cyprus<br>
-                            <span class="duration">01/06/2021 - PRESENT</span>
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="section7" class="row">
-        <div class="col-12">
-            <ul class="card">
-                <a class="dropdown-toggle" data-bs-toggle="collapse" href=".confer-and-seminars" aria-expanded="false">
-                    Conferences and Seminars
-                </a>
-                <li class="card collapse confer-and-seminars">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Green Energy</span><br>
-                        <ul>
-                            <li>ENHANCE Project Results Workshop – Enhanced Rooftop Photovoltaic (PV) Integration
-                                Through Kinetic and Wide Area Monitoring, 2020</li>
-                        </ul>
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse confer-and-seminars">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Blockchain</span><br>
-                        <ul>
-                            <li>Blockchain research talks from the 46th International Conference on Very Large
-                                Data Bases (VLDB2020), 2020</li>
-                            <li>Second International Workshop on Blockchain and Data
-                                Management (BlockDM 2020) in conjunction with ICDE, 2020</li>
-                        </ul>
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse confer-and-seminars">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">User Experience</span><br>
-                        <ul>
-                            <li></li>
-                        </ul>
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="section8" class="row">
-        <div class="col-12">
-            <ul class="card">
-                <a class="dropdown-toggle" data-bs-toggle="collapse" href=".hobbies-and-interests" aria-expanded="false">
-                    Hobbies and Interests
-                </a>
-                <li class="card collapse hobbies-and-interests">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Listening to Music</span>
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse hobbies-and-interests">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Psychology</span>
-                        </p>
-                    </div>
-                </li>
-                <li class="card collapse hobbies-and-interests">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <span class="bold">Reading</span>
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-
+        <section id="section8" class="row">
+            <div class="col-12">
+                <ul class="card">
+                    <h5 class="card-header text-center">
+                        Hobbies and Interests
+                    </h5>
+                    <li class="card hobbies-and-interests">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Listening to Music</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card hobbies-and-interests">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Psychology</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card hobbies-and-interests">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="bold">Reading</span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
 
     <!-- Footer -->
     <footer>

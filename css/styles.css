@@ -1,4 +1,30 @@
-/********* GENERAL ***********/
+/*********** TOP MENU **********/
+.nav-item a{
+    color: black !important;
+}
+.navbar-light .navbar-toggler{
+    color: rgba(85, 107, 47, 0.4) !important;
+}
+
+.active-menu-page {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../images/cherry-blossom-icon.png");
+}
+
+.navbar-toggler-icon {
+    width: 2em;
+    height: 2em;
+}
+
+a.navbar-brand, a.navbar-brand:hover, a.navbar-brand:active{
+    text-decoration: none;
+    color: black;
+}
+
+/********* GENERAL (for pages) ***********/
 p a{
     text-decoration: none;
     color: grey;
@@ -16,6 +42,10 @@ a:active{
     font-weight: bold;
 }
 
+.content-wrapper{
+    margin-top: 3%;
+    padding-top: 5%;
+}
 
 /*********** ABOUT ME PAGE **********/
 #index section#about-me img{
@@ -28,25 +58,36 @@ a:active{
 }
 
 /******** CV PAGE *********/
-/*#cv section#section1{text-align: center;padding-top: 10%;}*/
-#cv section ul{
-    /*margin: 2%;*/
-}
+
 .duration{
-    /*font-weight: bold;*/
     font-size: 12px;
 }
+
+#cv ul.card{
+    padding: 0;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cv .card{
+    position: static;
+}
+
+
 
 /******** PROJECTS PAGE  ********/
 #projects section#section1{
     text-align: center;
     padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 /******** CONTACT PAGE  *********/
 #contact section#email{
     text-align: center;
     padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 #contact section#email p{
@@ -58,6 +99,7 @@ a:active{
     width: 157px;
     height: 100px;
 }
+
 
 @media (max-width: 767px){
     #contact section#email img{
