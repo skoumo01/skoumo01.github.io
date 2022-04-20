@@ -25,7 +25,7 @@ a.navbar-brand, a.navbar-brand:hover, a.navbar-brand:active{
 }
 
 /********* GENERAL (for pages) ***********/
-p a{
+a{
     text-decoration: none;
     color: grey;
 }
@@ -80,11 +80,6 @@ a:active{
     margin-right: auto;
 }
 
-#cv .card{
-    position: static;
-}
-
-
 
 /******** PROJECTS PAGE  ********/
 #projects ul{
@@ -92,6 +87,21 @@ a:active{
     margin: 0;
 }
 
+#projects ul ul{
+    padding-left: 2rem;
+}
+
+#projects li.card{
+    margin-bottom: 3%;
+}
+
+#projects ul p{
+    margin-bottom: 0.5rem;
+}
+
+#projects{
+    margin-bottom: 8%;
+}
 
 /******** CONTACT PAGE  *********/
 #contact section#email{
