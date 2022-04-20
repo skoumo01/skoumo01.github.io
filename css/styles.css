@@ -42,6 +42,10 @@ a:active{
     font-weight: bold;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 .content-wrapper{
     margin-top: 3%;
     padding-top: 5%;
@@ -91,9 +95,6 @@ a:active{
     padding-left: 2rem;
 }
 
-#projects li.card{
-    margin-bottom: 3%;
-}
 
 #projects ul p{
     margin-bottom: 0.5rem;
