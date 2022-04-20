@@ -55,12 +55,22 @@ a:active{
 
 #index section#about-me #about-text{
     padding: 5%;
+    padding-top: 12%;
+}
+
+#index{
+    margin-bottom: 8%;
 }
 
 /******** CV PAGE *********/
 
 .duration{
     font-size: 12px;
+}
+
+
+#cv{
+    margin-bottom: 8%;
 }
 
 #cv ul.card{
